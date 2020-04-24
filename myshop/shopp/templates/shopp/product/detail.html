@@ -1,0 +1,35 @@
+{% extends "shopp/base.html" %}
+{% load static %}
+
+{% block title %}{{ product.name }}{% endblock title %}
+
+{% block content %}
+
+    <div id="sidebar">
+        <h3>Categories</h3>
+        <ul>
+            <li>
+                <a href="{% url "shopp:product_list" %}">All</a>            
+            </li>
+            {% for c in categories %}
+                <li>
+                    <a href="{{ c.get_absolute_url }}">{{ c.name}}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="product-detail">
+            <img src="{% if product.image %}{{ product.image.url }} {% else %} {% static "img/no_image.png" %} {% endif %}">
+            <h1>{{ product.name }}</h1>
+            <h2>
+                <a href="{{ product.category.get_absolute_url }}">{{ product.category }}</a>
+            </h2>
+            <p class="price">${{ product.price }}</p>
+                <form action="{% url "cart:cart_add" product.id %}" method="post">
+                    {{ cart_product_form }}
+                    {% csrf_token %}
+                    <input type="submit" value="Add to cart">
+                </form>
+            {{ product.discription|linebreaks }}
+    </div>        
+{% endblock content %}
