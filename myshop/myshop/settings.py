@@ -122,6 +122,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 MEDIA_URL = '/media/'
@@ -134,3 +135,5 @@ CART_SESSION_ID = 'cart'
 
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+# CELERY_BROKER_URL = 'amqp://guest:guest@localhost:5672//'
