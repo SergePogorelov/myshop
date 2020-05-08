@@ -44,7 +44,12 @@ Order {{order.id }} {{ block.super }}
         <th>Total amount</th>
         <td>${{ order.get_total_cost }}</td>
     </tr>
+    </tr>
         <tr>
+        <th>Discount</th>
+        <td>- {{ order.discount }}% off</td> 
+    </tr>
+    <tr>
         <th>Status</th>
         <td>{% if order.paid %}Paid{% else %}Pending payment {% endif %}</td>    
     </tr>
@@ -71,6 +76,10 @@ Order {{order.id }} {{ block.super }}
                         <td class="num">${{ item.get_cost }}</td>
                     </tr>
                 {% endfor %}
+                <tr class="total">
+                    <td colspan="3">Discount</td>
+                    <td class="num">- ${{ order.get_discount|floatformat:"2" }}</td>
+                </tr>
                 <tr class="total">
                     <td colspan="3">Total</td>
                     <td class="num">${{ order.get_total_cost }}</td>

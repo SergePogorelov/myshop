@@ -15,13 +15,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.conf.urls.i18n import i18n_patterns
 
-urlpatterns = [
+
+urlpatterns = i18n_patterns(
     path('admin/', admin.site.urls), 
     path('cart/', include('cart.urls', namespace='cart')),
     path('orders/', include('orders.urls', namespace='orders')),
+    path('coupons/', include('coupons.urls', namespace='coupons')),
+    path('rosetta/', include('rosetta.urls')),
     path('', include('shopp.urls', namespace='shopp')),   
-]
+)
 
 #Чтобы сервер Django мог обращаться к файлам пользователей
 from django.conf import settings
@@ -29,4 +33,3 @@ from django.conf.urls.static import static
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-    

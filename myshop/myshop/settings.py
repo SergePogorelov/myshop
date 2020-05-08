@@ -34,17 +34,21 @@ INSTALLED_APPS = [
     'cart.apps.CartConfig',
     'shopp.apps.ShoppConfig',
     'orders.apps.OrdersConfig',
+    'coupons.apps.CouponsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rosetta',
+    'localflavor',
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -107,7 +111,18 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru'
+
+from django.utils.translation import gettext_lazy as _
+
+LANGUAGES = (
+    ('en', _('English')),
+    ('ru', _('Russian')),
+)
+
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR, 'locale/'),
+)
 
 TIME_ZONE = 'UTC'
 
@@ -137,3 +152,10 @@ CART_SESSION_ID = 'cart'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # CELERY_BROKER_URL = 'amqp://guest:guest@localhost:5672//'
+
+USE_THOUSAND_SEPARATOR = True
+
+
+REDIS_HOST = 'localhost'
+REDIS_PORT = 6379
+REDIS_DB = 1
