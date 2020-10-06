@@ -37,3 +37,4 @@
 - [Celery](https://docs.celeryproject.org/en/stable/)
 - [RabbitMQ](https://www.rabbitmq.com/)
 
+_По книге [Антонио Меле: Django 2 в примерах](https://dmkpress.com/catalog/computer/programming/python/978-5-97060-746-6/)_
