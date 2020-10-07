@@ -30,6 +30,7 @@ cd redis-stable && make
 - Создайте на своем компютере папку проекта `mkdir myshop` и перейдите в нее `cd myshop`
 - Склонируйте этот репозиторий в текущую папку `git clone https://github.com/SergePogorelov/myshop.git .`
 - Создайте виртуальное окружение `python3 -m venv venv`
+- Активируйте виртуальное окружение `source venv/bin/activate`
 - Установите зависимости `pip install -r requirements.txt`
 - Накатите миграции `python manage.py migrate`
 - Создайте суперпользователя Django `python manage.py createsuperuser --username admin --email 'admin@example.com'`
