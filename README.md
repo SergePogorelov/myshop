@@ -70,6 +70,6 @@ sudo systemctl start rabbitmq-server
 - [RabbitMQ](https://www.rabbitmq.com/)
 
 ## Лицензия
-Этот проект лицензируется по лицензии `BSD 3-Clause License` - см. [LICENSE.md](https://github.com/SergePogorelov/bookmarks/blob/master/LICENSE) для получения подробной информации.
+Этот проект лицензируется по лицензии `BSD 3-Clause License` - см. [LICENSE.md](https://github.com/SergePogorelov/myshop/blob/master/LICENSE) для получения подробной информации.
 
 _По книге [Антонио Меле: Django 2 в примерах](https://dmkpress.com/catalog/computer/programming/python/978-5-97060-746-6/)_
