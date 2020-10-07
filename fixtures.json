@@ -1,0 +1,908 @@
+[
+{
+  "model": "shopp.category",
+  "pk": 1,
+  "fields": {
+    "name": "TV",
+    "slug": "tv"
+  }
+},
+{
+  "model": "shopp.category",
+  "pk": 2,
+  "fields": {
+    "name": "FOTO",
+    "slug": "foto"
+  }
+},
+{
+  "model": "shopp.category",
+  "pk": 3,
+  "fields": {
+    "name": "\u0422\u0415\u041b\u0415\u0424\u041e\u041d\u042b",
+    "slug": "telefony"
+  }
+},
+{
+  "model": "shopp.product",
+  "pk": 1,
+  "fields": {
+    "category": 1,
+    "name": "\u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440 LG 43UK6200 43\" (2018)",
+    "slug": "televizor-lg-43uk6200-43-2018",
+    "image": "products/2020/10/07/484e738c-fdbf-4e2d-afad-69b4aaa53306_5.1e57c6ac0b3340e54690177aac84ca1e.jpeg",
+    "discription": "4K UHD (3840x2160), HDR\r\n    \u0434\u0438\u0430\u0433\u043e\u043d\u0430\u043b\u044c \u044d\u043a\u0440\u0430\u043d\u0430 43\", TFT IPS\r\n    \u0447\u0430\u0441\u0442\u043e\u0442\u0430 \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u044d\u043a\u0440\u0430\u043d\u0430 50 \u0413\u0446\r\n    Smart TV (webOS), Wi-Fi\r\n    \u043c\u043e\u0449\u043d\u043e\u0441\u0442\u044c \u0437\u0432\u0443\u043a\u0430 20 \u0412\u0442 (2\u044510 \u0412\u0442)",
+    "price": "500.00",
+    "available": true,
+    "created": "2020-10-07T17:31:16.853Z",
+    "updated": "2020-10-07T17:31:16.853Z"
+  }
+},
+{
+  "model": "shopp.product",
+  "pk": 2,
+  "fields": {
+    "category": 1,
+    "name": "\u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440 LG 49UK6200 49\" (2018)",
+    "slug": "televizor-lg-49uk6200-49-2018",
+    "image": "products/2020/10/07/1018984263.jpg",
+    "discription": "4K UHD (3840x2160), HDR\r\n    \u0434\u0438\u0430\u0433\u043e\u043d\u0430\u043b\u044c \u044d\u043a\u0440\u0430\u043d\u0430 49\", TFT IPS\r\n    \u0447\u0430\u0441\u0442\u043e\u0442\u0430 \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u044d\u043a\u0440\u0430\u043d\u0430 50 \u0413\u0446\r\n    Smart TV (webOS), Wi-Fi\r\n    \u043c\u043e\u0449\u043d\u043e\u0441\u0442\u044c \u0437\u0432\u0443\u043a\u0430 20 \u0412\u0442 (2\u044510 \u0412\u0442)",
+    "price": "2000.00",
+    "available": true,
+    "created": "2020-10-07T17:31:47.066Z",
+    "updated": "2020-10-07T17:31:47.066Z"
+  }
+},
+{
+  "model": "shopp.product",
+  "pk": 3,
+  "fields": {
+    "category": 1,
+    "name": "\u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440 Xiaomi Mi TV 4S 50 49.5\" (2018)",
+    "slug": "televizor-xiaomi-mi-tv-4s-50-495-2018",
+    "image": "products/2020/10/07/tovar91289_2.jpg",
+    "discription": "4K UHD (3840x2160), HDR\r\n    \u0434\u0438\u0430\u0433\u043e\u043d\u0430\u043b\u044c \u044d\u043a\u0440\u0430\u043d\u0430 49.5\", TFT IPS\r\n    \u0447\u0430\u0441\u0442\u043e\u0442\u0430 \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u044d\u043a\u0440\u0430\u043d\u0430 50 \u0413\u0446\r\n    Smart TV (Android), Wi-Fi\r\n    \u043c\u043e\u0449\u043d\u043e\u0441\u0442\u044c \u0437\u0432\u0443\u043a\u0430 16 \u0412\u0442 (2\u04458 \u0412\u0442)",
+    "price": "1200.00",
+    "available": true,
+    "created": "2020-10-07T17:33:12.792Z",
+    "updated": "2020-10-07T17:37:27.830Z"
+  }
+},
+{
+  "model": "shopp.product",
+  "pk": 4,
+  "fields": {
+    "category": 2,
+    "name": "\u0424\u043e\u0442\u043e\u0430\u043f\u043f\u0430\u0440\u0430\u0442 Nikon D3500 Kit",
+    "slug": "fotoapparat-nikon-d3500-kit",
+    "image": "",
+    "discription": "\u043b\u044e\u0431\u0438\u0442\u0435\u043b\u044c\u0441\u043a\u0430\u044f \u0437\u0435\u0440\u043a\u0430\u043b\u044c\u043d\u0430\u044f \u0444\u043e\u0442\u043e\u043a\u0430\u043c\u0435\u0440\u0430\r\n    \u0431\u0430\u0439\u043e\u043d\u0435\u0442 Nikon F\r\n    \u043c\u0430\u0442\u0440\u0438\u0446\u0430 24.78 \u041c\u041f (APS-C)\r\n    \u0432\u044b\u0434\u0435\u0440\u0436\u043a\u0430: 0.00 - 30 \u0441\r\n    \u0447\u0443\u0432\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c 100 - 3200 ISO , AutoISO",
+    "price": "1300.00",
+    "available": true,
+    "created": "2020-10-07T17:33:40.265Z",
+    "updated": "2020-10-07T17:33:50.719Z"
+  }
+},
+{
+  "model": "shopp.product",
+  "pk": 5,
+  "fields": {
+    "category": 2,
+    "name": "\u0424\u043e\u0442\u043e\u0430\u043f\u043f\u0430\u0440\u0430\u0442 Canon EOS 2000D Kit",
+    "slug": "fotoapparat-canon-eos-2000d-kit",
+    "image": "products/2020/10/07/2020-10-07_20-35.png",
+    "discription": "\u043b\u044e\u0431\u0438\u0442\u0435\u043b\u044c\u0441\u043a\u0430\u044f \u0437\u0435\u0440\u043a\u0430\u043b\u044c\u043d\u0430\u044f \u0444\u043e\u0442\u043e\u043a\u0430\u043c\u0435\u0440\u0430\r\n    \u0431\u0430\u0439\u043e\u043d\u0435\u0442 Canon EF/EF-S\r\n    \u043c\u0430\u0442\u0440\u0438\u0446\u0430 24.7 \u041c\u041f (APS-C)\r\n    \u0432\u044b\u0434\u0435\u0440\u0436\u043a\u0430: 0.00 - 30 \u0441\r\n    \u0447\u0443\u0432\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c 100 - 3200 ISO , AutoISO",
+    "price": "2300.00",
+    "available": true,
+    "created": "2020-10-07T17:35:34.102Z",
+    "updated": "2020-10-07T17:35:34.102Z"
+  }
+},
+{
+  "model": "shopp.product",
+  "pk": 6,
+  "fields": {
+    "category": 3,
+    "name": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d Samsung Galaxy A51 64GB",
+    "slug": "smartfon-samsung-galaxy-a51-64gb",
+    "image": "products/2020/10/07/2.png",
+    "discription": "\u043d\u0430 \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0435 Android\r\n    \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0430 \u0434\u0432\u0443\u0445 SIM-\u043a\u0430\u0440\u0442\r\n    \u044d\u043a\u0440\u0430\u043d 6.5\", \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435 2400x1080\r\n    4 \u043a\u0430\u043c\u0435\u0440\u044b: 48 \u041c\u041f, 12 \u041c\u041f, 5 \u041c\u041f, 5 \u041c\u041f\r\n    \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440 Samsung Exynos 9611",
+    "price": "430.00",
+    "available": true,
+    "created": "2020-10-07T17:39:15.862Z",
+    "updated": "2020-10-07T17:39:15.862Z"
+  }
+},
+{
+  "model": "shopp.product",
+  "pk": 7,
+  "fields": {
+    "category": 3,
+    "name": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d Samsung Galaxy A71 6/128GB",
+    "slug": "smartfon-samsung-galaxy-a71-6128gb",
+    "image": "products/2020/10/07/3.png",
+    "discription": "Android 10\r\n    \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0430 \u0434\u0432\u0443\u0445 SIM-\u043a\u0430\u0440\u0442\r\n    \u044d\u043a\u0440\u0430\u043d 6.7\", \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435 2400x1080\r\n    4 \u043a\u0430\u043c\u0435\u0440\u044b: 64 \u041c\u041f, 12 \u041c\u041f, 5 \u041c\u041f, 5 \u041c\u041f\r\n    \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440 Qualcomm Snapdragon 730",
+    "price": "670.00",
+    "available": true,
+    "created": "2020-10-07T17:40:36.650Z",
+    "updated": "2020-10-07T17:40:36.650Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 1,
+  "fields": {
+    "first_name": "serge",
+    "last_name": "pogorelov",
+    "email": "serge@gmail.com",
+    "address": "moscow",
+    "postal_code": "123",
+    "city": "moscow",
+    "created": "2020-10-07T17:43:23.407Z",
+    "updated": "2020-10-07T17:43:23.407Z",
+    "paid": false,
+    "coupon": null,
+    "discount": 0
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 2,
+  "fields": {
+    "first_name": "serge",
+    "last_name": "pogorelov",
+    "email": "serge@gmail.com",
+    "address": "moscow",
+    "postal_code": "123",
+    "city": "moscow",
+    "created": "2020-10-07T17:54:13.202Z",
+    "updated": "2020-10-07T17:54:13.202Z",
+    "paid": false,
+    "coupon": null,
+    "discount": 0
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 1,
+  "fields": {
+    "order": 1,
+    "product": 1,
+    "price": "500.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 2,
+  "fields": {
+    "order": 1,
+    "product": 7,
+    "price": "670.00",
+    "quantity": 2
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 3,
+  "fields": {
+    "order": 2,
+    "product": 1,
+    "price": "500.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 4,
+  "fields": {
+    "order": 2,
+    "product": 7,
+    "price": "670.00",
+    "quantity": 2
+  }
+},
+{
+  "model": "coupons.coupon",
+  "pk": 1,
+  "fields": {
+    "code": "123",
+    "valid_from": "2020-10-06T17:35:57Z",
+    "valid_to": "2020-10-15T17:36:03Z",
+    "discount": 10,
+    "active": true
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "shopp",
+    "model": "category"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "shopp",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "orders",
+    "model": "order"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "orders",
+    "model": "orderitem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "coupons",
+    "model": "coupon"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "e0roilz6uruvb8sxsji73jdte551yn7l",
+  "fields": {
+    "session_data": "MzRlYzUzOWFlNDA0OWYzYjRjMTdkOGJkNWNmY2RjYTU3NGE3MTQ4ODp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI5MWY4MTI5NDBjOThlZDY1YmYxMjVhZDlmNTIyNTk0MDg2ODkwOWZlIiwiY2FydCI6e319",
+    "expire_date": "2020-10-21T17:57:51.359Z"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add category",
+    "content_type": 1,
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change category",
+    "content_type": 1,
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete category",
+    "content_type": 1,
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view category",
+    "content_type": 1,
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add product",
+    "content_type": 2,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change product",
+    "content_type": 2,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete product",
+    "content_type": 2,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view product",
+    "content_type": 2,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add order",
+    "content_type": 3,
+    "codename": "add_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change order",
+    "content_type": 3,
+    "codename": "change_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete order",
+    "content_type": 3,
+    "codename": "delete_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view order",
+    "content_type": 3,
+    "codename": "view_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add order item",
+    "content_type": 4,
+    "codename": "add_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change order item",
+    "content_type": 4,
+    "codename": "change_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete order item",
+    "content_type": 4,
+    "codename": "delete_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view order item",
+    "content_type": 4,
+    "codename": "view_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add coupon",
+    "content_type": 5,
+    "codename": "add_coupon"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change coupon",
+    "content_type": 5,
+    "codename": "change_coupon"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete coupon",
+    "content_type": 5,
+    "codename": "delete_coupon"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view coupon",
+    "content_type": 5,
+    "codename": "view_coupon"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 6,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 6,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 6,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 6,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 7,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 7,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 7,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 7,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 8,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 8,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 8,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 8,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 9,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 9,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 9,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 9,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 10,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 10,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 10,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 10,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 11,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 11,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 11,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 11,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$nSuClEWBM1qZ$nx2MrSyCsBwwuWTmzXfgSMngeh173c3S85iVAFCG2YQ=",
+    "last_login": "2020-10-07T16:25:54.783Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@example.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-10-07T16:20:16.832Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2020-10-07T17:25:43.602Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "1",
+    "object_repr": "TV",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2020-10-07T17:25:49.871Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "2",
+    "object_repr": "FOTO",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2020-10-07T17:25:56.634Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "3",
+    "object_repr": "\u0422\u0415\u041b\u0415\u0424\u041e\u041d\u042b",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2020-10-07T17:31:16.863Z",
+    "user": 1,
+    "content_type": 2,
+    "object_id": "1",
+    "object_repr": "\u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440 LG 43UK6200 43\" (2018)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2020-10-07T17:31:47.069Z",
+    "user": 1,
+    "content_type": 2,
+    "object_id": "2",
+    "object_repr": "\u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440 LG 49UK6200 49\" (2018)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2020-10-07T17:33:12.796Z",
+    "user": 1,
+    "content_type": 2,
+    "object_id": "3",
+    "object_repr": "\u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440 Xiaomi Mi TV 4S 50 49.5\" (2018)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2020-10-07T17:33:40.267Z",
+    "user": 1,
+    "content_type": 2,
+    "object_id": "4",
+    "object_repr": "\u0424\u043e\u0442\u043e\u0430\u043f\u043f\u0430\u0440\u0430\u0442 Nikon D3500 Kit",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2020-10-07T17:33:50.738Z",
+    "user": 1,
+    "content_type": 2,
+    "object_id": "4",
+    "object_repr": "\u0424\u043e\u0442\u043e\u0430\u043f\u043f\u0430\u0440\u0430\u0442 Nikon D3500 Kit",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2020-10-07T17:35:34.105Z",
+    "user": 1,
+    "content_type": 2,
+    "object_id": "5",
+    "object_repr": "\u0424\u043e\u0442\u043e\u0430\u043f\u043f\u0430\u0440\u0430\u0442 Canon EOS 2000D Kit",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2020-10-07T17:36:11.426Z",
+    "user": 1,
+    "content_type": 5,
+    "object_id": "1",
+    "object_repr": "123",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2020-10-07T17:37:27.834Z",
+    "user": 1,
+    "content_type": 2,
+    "object_id": "3",
+    "object_repr": "\u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440 Xiaomi Mi TV 4S 50 49.5\" (2018)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2020-10-07T17:39:15.872Z",
+    "user": 1,
+    "content_type": 2,
+    "object_id": "6",
+    "object_repr": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d Samsung Galaxy A51 64GB",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2020-10-07T17:40:36.652Z",
+    "user": 1,
+    "content_type": 2,
+    "object_id": "7",
+    "object_repr": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d Samsung Galaxy A71 6/128GB",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2020-10-07T17:42:25.784Z",
+    "user": 1,
+    "content_type": 5,
+    "object_id": "1",
+    "object_repr": "123",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Valid from\"]}}]"
+  }
+}
+]
